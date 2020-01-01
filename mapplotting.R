@@ -1,3 +1,5 @@
+#通常有两种方法
+
 #运用sf包完成
 sf <- read_sf("2017maps/省2017.shp")
 #sf <- st_read("2017maps/省2017.shp",quiet = T)#与上句同
