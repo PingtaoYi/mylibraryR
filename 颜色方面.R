@@ -12,6 +12,8 @@
 
 
 # 取wesanderson包中的所有配色
+
+# rstudio_win 增加五条信息
 ###1.map完成循环取色,walk依次输出
 mycolor <- map(seq_along(wes_palettes),function(x) wes_palettes[[x]])
   # map(seq_along(wes_palettes),~ wes_palettes[[.]]) #与上同
