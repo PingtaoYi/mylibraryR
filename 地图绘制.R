@@ -1,5 +1,9 @@
 #通常有两种方法
+
 #增加一个分支的消息online
+
+# 主分支在这里增加一个信息
+
 #运用sf包完成
 sf <- read_sf("2017maps/省2017.shp")
 #sf <- st_read("2017maps/省2017.shp",quiet = T)#与上句同
