@@ -1,3 +1,5 @@
+# 针对两个常用的配色包
+
 # 取wesanderson包中的所有配色
 ###1.map完成循环取色,walk依次输出
 mycolor <- map(seq_along(wes_palettes),function(x) wes_palettes[[x]])
