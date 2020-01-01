@@ -1,21 +1,3 @@
-# 针对两个常用的配色包
-
-# rstudio_win 增加一条信息
-
-# rstudio_win 增加两条信息
-# rstudio_win 增加三条信息
-# online增加一条信息
-
-# rstudio_win 增加四条信息
-
-# online增加第二条信息
-
-# rstudio_win增加六条信息
-
-# online增加第三条信息
-
-
-
 # 取wesanderson包中的所有配色
 
 # rstudio_win 增加五条信息
@@ -45,3 +27,12 @@ walk(mycolor,show_col)
 walk(map2(brewer.pal.info$maxcolors,
      row.names(brewer.pal.info),
      .f =  brewer.pal),scales::show_col)
+
+
+
+# R语言预设调色板
+rainbow
+heat.colors
+terrain.colors
+topo.colors
+cm.colors
