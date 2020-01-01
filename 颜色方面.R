@@ -1,5 +1,9 @@
 # 针对两个常用的配色包
+
+# rstudio_win 增加一条信息
+=======
 # online增加一条信息
+
 
 # 取wesanderson包中的所有配色
 ###1.map完成循环取色,walk依次输出
