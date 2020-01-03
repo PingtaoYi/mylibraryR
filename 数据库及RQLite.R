@@ -114,7 +114,8 @@ tailnum_delay %>% tail()
 
 dbDisconnect(con)
 ####2.操作已存在的表
-con <- dbConnect(m,user = 'postgres', password = '',dbname = 'Yi')
+con <- dbConnect(PostgreSQL(),user = 'postgres', password = '',dbname = 'Yi')
 #dbReadTable(con,'Employment-Northeast(1)')
 emp <- tbl(con,'Employment-Northeast(1)',encoding = 'UTF-8')
-
+emp_1 <- emp %>% collect()
+emp_1
